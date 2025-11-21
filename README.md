@@ -304,6 +304,4 @@ URL Address: localhost:8888
 Password or token: $USER    # your account name on Neuron
 ```
 <p align="center"><img src="https://user-images.githubusercontent.com/84169368/218938419-f38c356b-e682-4b1c-9add-6cfc29d53425.png"/></p> 
-
-<p align="center"><img width="1521" height="1349" alt="Image" src="https://github.com/user-attachments/assets/17953486-3806-4fec-b959-34d6bd08d87c" /></p>
 ```
