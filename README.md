@@ -126,7 +126,7 @@ Thank you for installing Miniconda3!
 [glogin01]$ which conda
 /scratch/$USER/miniconda3/condabin/conda
 [glogin01]$ conda --version
-conda 24.3.0
+conda 23.11.0
 ```
 ## Creating a Conda Virtual Environment
 You need to create a virtual envrionment for exercising multimodal AI use cases.
