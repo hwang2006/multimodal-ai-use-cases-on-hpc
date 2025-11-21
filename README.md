@@ -133,7 +133,7 @@ You need to create a virtual envrionment for a large-scale language model tutori
 
 1. Create a conda virtual environment with a python version 3.10
 ```
-[glogin01]$ conda create -n large-scale-lm python=3.12 -y
+[glogin01]$ conda create -n multimodal-ai python=3.12 -y
 Channels:
  - defaults
 Platform: linux-64
@@ -142,10 +142,10 @@ Solving environment: done
 
 ## Package Plan ##
 
-  environment location: /scratch/qualis/miniconda3/envs/large-scale-lm
+  environment location: /scratch/qualis/miniconda3/envs/large-s
 
   added / updated specs:
-    - python=3.10
+    - python=3.12
 .
 .
 .
