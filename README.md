@@ -128,6 +128,14 @@ Thank you for installing Miniconda3!
 [glogin01]$ conda --version
 conda 23.11.0
 ```
+## Cloning the Repository
+to set up this repository on your scratch directory.
+```bash
+[glogin01]$ cd /scratch/$USER
+[glogin01]$ git clone 
+[glogin01]$ cd gpt-oss-with-ollama-on-supercomputing
+```
+
 ## Creating a Conda Virtual Environment
 You need to create a virtual envrionment for exercising multimodal AI use cases.
 
