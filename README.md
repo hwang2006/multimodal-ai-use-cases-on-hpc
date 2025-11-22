@@ -138,6 +138,25 @@ you need to clone this repository on your scratch directory.
 ../  2-mm-embeddings/  4-ft-mm-embeddings/  .git/       jupyter_run.sh  
 ```
 
+## Preparing Ollama Singularity Image
+```bash
+[glogin01]$ singularity pull ollama_latest.sif docker://ollama/ollama:latest
+st
+INFO:    Converting OCI blobs to SIF format
+INFO:    Starting build...
+INFO:    Fetching OCI image...
+79.6MiB / 79.6MiB [======================================================] 100 % 126.1 MiB/s 0s
+11.9MiB / 11.9MiB [======================================================] 100 % 126.1 MiB/s 0s
+1.8GiB / 1.8GiB [========================================================] 100 % 126.1 MiB/s 0s
+28.3MiB / 28.3MiB [======================================================] 100 % 126.1 MiB/s 0s
+INFO:    Extracting OCI image...
+INFO:    Inserting Singularity configuration...
+INFO:    Creating SIF file...
+16134% [qualis@glogin03 qualis]$ singularity exec ./ollama_latest.sif ollama --version
+Warning: could not connect to a running Ollama instance
+Warning: client version is 0.13.0
+```
+
 ## Creating a Conda Virtual Environment
 You need to create a virtual envrionment for exercising multimodal AI use cases.
 
