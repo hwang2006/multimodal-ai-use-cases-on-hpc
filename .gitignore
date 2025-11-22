@@ -205,3 +205,12 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ollama
+ollama_latest.sif
+ollama_*.log
+ollama_port_forwarding_*.txt
+
+# Miscellaneous
+port_forwarding_command
+slurm-*.out
